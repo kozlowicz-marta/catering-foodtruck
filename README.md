@@ -9,4 +9,4 @@ Simple web site about foodtruck catering.
 * Gulp
 
 ## LIVE
-[SitOnChair - Let's see](https://www.cateringfoodtruck.pl/)
+[Catering-foodtruck - Let's see](https://www.cateringfoodtruck.pl/)
