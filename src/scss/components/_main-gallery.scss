@@ -1,0 +1,19 @@
+.main-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+}
+
+.main-gallery img {
+    margin: 3px;
+    max-width: 35vw;
+    max-height: 21vh;
+}
+
+@media (max-width:550px) {
+    .main-gallery img {
+        max-height: 11vh;
+    }
+}

@@ -1,0 +1,14 @@
+@import "variables.scss";
+
+@import "partials/normalize.scss";
+@import "partials/_global-class.scss";
+@import "partials/print.scss";
+@import "partials/layout.scss";
+
+@import "components/_page-header.scss";
+@import "components/_main-hero.scss";
+@import "components/_main-gallery.scss";
+@import "components/_main-parallax.scss";
+@import "components/box.scss";
+
+@import "components/_page-footer.scss";

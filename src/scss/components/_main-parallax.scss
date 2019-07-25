@@ -1,0 +1,24 @@
+.main-parallax {
+    height: 570px;
+    background-color: $color1;
+    background-image: url(../images/paralax-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-parallax:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient($color1, $color2);
+    opacity: 0.8;
+}
